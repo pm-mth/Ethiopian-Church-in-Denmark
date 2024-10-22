@@ -1,0 +1,188 @@
+{
+  "header": {
+    "churchName": "Ethiopian Church in Denmark",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "newHere": "New Here",
+    "languageSelector": {
+      "english": "English",
+      "amharic": "አማርኛ"
+    }
+  },
+  "hero": {
+    "welcomeTitle": "Welcome to Ethiopian Church in Denmark",
+    "subtitle": "A Place of Worship, Community, and Hope",
+    "ctaButton": "Join Us This Sunday",
+    "quote": "For where two or three gather in my name, there am I with them. — Matthew 18:20"
+  },
+  "missionAbout": {
+    "missionTitle": "Our Mission",
+    "missionText": "Our mission is to spread love, serve our community, and grow together in faith.",
+    "aboutTitle": "About Us",
+    "aboutText": "We are a community-driven church with a focus on fellowship, faith, and service. Our community is composed of Ethiopian Christians in Denmark, united by our shared culture and faith. Learn more about our history, which began with a group of dedicated believers coming together to create a supportive spiritual home away from home. Our goal is to strengthen our community bonds, offer support to newcomers, and spread hope through faith-based initiatives and outreach programs.",
+    "learnMoreButton": "Learn More About Us"
+  },
+  "worshipServices": {
+    "title": "Our Worship Services",
+    "bibleStudy": "Bible Study",
+    "bibleStudyDescription": "Join us for an in-depth exploration of the Bible, where we learn and grow together in faith.",
+    "prayer": "Prayer Meetings",
+    "prayerDescription": "Come together with us to pray, support each other, and experience the power of prayer.",
+    "childrenMinistry": "Children's Ministry",
+    "childrenMinistryDescription": "A dedicated space for children to learn about faith in a fun and engaging way.",
+    "choir": "Choir",
+    "choirDescription": "Lift your voice in praise and join our choir as we make a joyful noise unto the Lord."
+  },
+  "serviceTimesLocations": {
+    "title": "Service Times and Locations",
+    "scheduleTitle": "Service Days and Times",
+    "sundayService": "Sunday Worship: 10:00 AM - 12:00 PM",
+    "weekdayService": "Wednesday Bible Study: 6:00 PM - 7:30 PM",
+    "onlineService": "Online Service: Sunday at 10:00 AM (Zoom)",
+    "locationTitle": "Location",
+    "address": "123 Church St, Copenhagen, Denmark",
+    "parkingInfo": "Parking available on site.",
+    "accessibilityInfo": "Wheelchair accessible entrances and seating available.",
+    "learnMoreButton": "Learn More About Our Services"
+  },
+
+  "services": {
+    "title": "Our Services",
+    "sundayWorship": "Sunday Worship",
+    "bibleStudy": "Bible Study",
+    "communitySupport": "Community Support"
+  },
+  "newHere": {
+    "title": "New Here?",
+    "subtitle": "Welcome to Our Church Community",
+    "welcomeMessage": "We are so glad you're here! Whether you are new to church or new to faith, we are here to help you feel comfortable and connected.",
+    "whatToExpect": "Expect a warm welcome, engaging worship, and a community ready to help you grow spiritually.",
+    "learnMoreButton": "Learn More"
+  },
+  "imageGallery": {
+    "title": "Our Community in Pictures",
+    "caption1": "Community Event 1",
+    "caption2": "Worship Service",
+    "caption3": "Youth Group Gathering",
+    "caption4": "Outreach Program",
+    "caption5": "Sunday School Activity"
+  },
+  "newhere-hero": {
+    "welcomeTitle": "Welcome to Our Church!",
+    "welcomeMessage": "We're so glad you're here! Whether you're new to faith or looking for a community to call home, we're excited to welcome you.",
+    "ctaButton": "Plan Your Visit",
+    "pastorImageAlt": "Pastor welcoming newcomers"
+  },
+  "newhere-faq": {
+    "title": "Frequently Asked Questions",
+    "question1": "What time are the services?",
+    "answer1": "Our services are held every Sunday at 10:00 AM.",
+    "question2": "Is there parking available?",
+    "answer2": "Yes, we have ample parking available for all visitors.",
+    "question3": "Are children welcome?",
+    "answer3": "Absolutely! We have dedicated children's programs during the service."
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "form": {
+      "nameLabel": "Full Name",
+      "namePlaceholder": "Enter your name",
+      "emailLabel": "Email Address",
+      "emailPlaceholder": "Enter your email",
+      "phoneLabel": "Phone Number",
+      "phonePlaceholder": "Enter your phone number",
+      "preferredContactLabel": "Preferred Method of Contact",
+      "preferredContactEmail": "Email",
+      "preferredContactPhone": "Phone",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Write your message here",
+      "submitButton": "Send Message"
+    },
+    "details": {
+      "title": "Contact Details",
+      "phone": "Phone",
+      "email": "Email"
+    }
+  },
+
+  "about": {
+    "title": "About Us",
+    "tagline": "Discover Our Story and Community"
+  },
+  "ourStory": {
+      "title": "Our Story",
+      "text": "The Ethiopian Church in Denmark was founded to serve the Ethiopian community, offering a place of worship, community, and support. Our journey started with a small group of devoted individuals who wanted to create a home away from home, where everyone could gather, share their faith, and grow spiritually. Today, we are proud to be a growing community that welcomes all who seek faith, comfort, and connection."
+    },
+    "missionVision": {
+      "title": "Our Mission and Vision",
+      "mission": "Our mission is to provide a welcoming and supportive environment where people of all backgrounds can come together to worship, grow in faith, and serve the community. We strive to be a beacon of hope and a source of spiritual guidance for the Ethiopian community in Denmark.",
+      "vision": "Our vision is to build a thriving, faith-filled community that nurtures spiritual growth, promotes cultural heritage, and positively impacts the lives of those around us. We envision a future where our church serves as a bridge between cultures, fostering unity and understanding."
+    },
+    "ourBeliefs": {
+      "title": "Our Beliefs",
+      "items": [
+        "We believe in one God, the Father Almighty, Creator of heaven and earth.",
+        "We believe in Jesus Christ, His only Son, our Lord, who was conceived by the Holy Spirit and born of the Virgin Mary.",
+        "We believe in the Holy Spirit, the Lord, the giver of life, who proceeds from the Father and the Son.",
+        "We believe in the community of faith and the importance of worship, fellowship, and service."
+      ]
+    },
+    "leadershipTeam": {
+      "title": "Meet Our Leadership Team",
+      "members": [
+        {
+          "name": "Pastor John Doe",
+          "role": "Lead Pastor",
+          "bio": "Pastor John has been serving the community for over 20 years, bringing a passion for spiritual growth and community development.",
+          "photo": "/path/to/john_doe_photo.jpg"
+        },
+        {
+          "name": "Jane Smith",
+          "role": "Worship Leader",
+          "bio": "Jane leads the worship team with a deep love for music and a dedication to creating a meaningful worship experience.",
+          "photo": "/path/to/jane_smith_photo.jpg"
+        },
+        {
+          "name": "Michael Brown",
+          "role": "Youth Ministry Leader",
+          "bio": "Michael is passionate about mentoring young people and helping them find their faith journey in a supportive environment.",
+          "photo": "/path/to/michael_brown_photo.jpg"
+        }
+      ]
+    },
+    "service": {
+      "title": "Services",
+      "tagline": "Discover Our Services and How to Engage in our church"
+    },
+    "sundayWorship": {
+      "title": "Sunday Worship",
+      "details": "Every Sunday at 10:00 AM in the Main Auditorium",
+      "description": "Join us for our weekly Sunday Worship service where we come together to celebrate, learn, and grow in our faith. Enjoy uplifting music, an inspiring message, and a community of believers."
+    },
+    "bibleStudy": {
+        "title": "Bible Study",
+        "details": "Every Wednesday at 7:00 PM in the Fellowship Hall",
+        "description": "Join us for our mid-week Bible Study, where we dive deep into scripture, discuss, and grow together in faith. This is a welcoming environment for all ages and experience levels."
+      },
+      "prayerService": {
+        "title": "Prayer Service",
+        "details": "Every Friday at 6:00 PM in the Prayer Room",
+        "description": "Join us for our weekly Prayer Service, where we gather to share our burdens, pray together, and seek God's presence. This is a welcoming space for everyone to connect and support one another."
+      },
+  "footer": {
+    "logoAlt": "Church Logo",
+    "contactTitle": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address",
+    "quickLinksTitle": "Quick Links",
+    "home": "Home",
+    "aboutUs": "About Us",
+    "services": "Services",
+    "newHere": "New Here",
+    "followUs": "Follow Us",
+    "churchName": "Ethiopian Church in Denmark",
+    "rightsReserved": "All rights reserved"
+  }
+}

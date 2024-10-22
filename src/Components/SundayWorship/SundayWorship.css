@@ -1,0 +1,95 @@
+/* SundayWorship.css */
+
+.sunday-worship {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .service-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 3rem;
+  }
+  
+  .service-section--reverse {
+    flex-direction: row-reverse;
+  }
+  
+  .service-section__image {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .service-section__content {
+    width: 50%;
+    text-align: left;
+  }
+  
+  .service-section__title {
+    font-size: 2rem;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .service-section__details {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+  
+  .service-section__description {
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .service-section {
+      flex-direction: column;
+    }
+  
+    .service-section__image,
+    .service-section__content {
+      width: 100%;
+    }
+  
+    .service-section__title {
+      font-size: 1.8rem;
+    }
+  
+    .service-section__details {
+      font-size: 1.1rem;
+    }
+  
+    .service-section__description {
+      font-size: 0.95rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .sunday-worship {
+      padding: 2rem 1rem;
+    }
+  
+    .service-section__title {
+      font-size: 1.6rem;
+    }
+  
+    .service-section__details {
+      font-size: 1rem;
+    }
+  
+    .service-section__description {
+      font-size: 0.9rem;
+    }
+  }
+  

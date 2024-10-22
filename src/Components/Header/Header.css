@@ -1,0 +1,187 @@
+/* Header Styles */
+.header {
+  position: fixed; /* Sticks the header to the top */
+  top: 0;
+  left: 0;
+  width: 100vw; /* Full viewport width */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #4a90e2; /* Header background color */
+  color: #fff;
+  z-index: 1000; /* Ensure header is above other content */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for separation */
+  box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+/* Logo */
+.header__logo {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+}
+
+.header__logo img {
+  height: 50px; /* Adjust the height as needed */
+  width: auto; /* Maintain aspect ratio */
+}
+
+/* Navigation */
+.header__nav {
+  display: flex;
+  flex: 1; /* Takes up remaining space between the logo and language selector */
+  justify-content: flex-end; /* Aligns nav to the right */
+}
+
+.header__nav-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.header__nav-item {
+  margin: 0 1rem;
+}
+
+.header__nav-item a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.header__nav-item a:hover {
+  color: #ffd700; /* Hover color */
+}
+
+/* Language Selector */
+.header__language-selector {
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.language-icon {
+  margin-right: 0.5rem;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.header__language-selector select {
+  padding: 0.25rem;
+  border-radius: 4px;
+  border: none;
+  background: #fff;
+  color: #4a90e2;
+  font-size: 1rem; /* Adjusted font size for better visibility */
+}
+
+/* Mobile Menu Icon */
+.header__menu-icon {
+  display: none;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+/* Mobile and Tablet Styles */
+@media (max-width: 1024px) {
+  .header__menu-icon {
+    display: block;
+  }
+
+  .header__nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #4a90e2;
+    z-index: 1000;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .header__nav.active {
+    display: flex;
+  }
+
+  .header__nav-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__nav-item {
+    margin: 1rem 0;
+  }
+}
+
+/* Tablet Styles (Landscape) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .header__nav-item a {
+    font-size: 1.2rem;
+  }
+
+  .header__language-selector select {
+    font-size: 1rem;
+    padding: 0.35rem;
+  }
+}
+
+/* Mobile Styles (Portrait) */
+@media (max-width: 768px) {
+  .header {
+    padding: 0.5rem 1rem;
+  }
+
+  .header__nav-item a {
+    font-size: 1.1rem;
+  }
+
+  .header__language-selector select {
+    font-size: 0.9rem;
+    padding: 0.3rem;
+  }
+}
+
+/* Higher Screen Sizes and Large Desktops */
+@media (min-width: 1440px) {
+  .header__nav-item {
+    margin: 0 2rem; /* Extra space between items for larger screens */
+  }
+
+  .header__nav-item a {
+    font-size: 1.1rem;
+  }
+
+  .header__language-selector select {
+    font-size: 1.1rem;
+    padding: 0.4rem;
+  }
+
+  .header {
+    padding: 1rem 3rem; /* More padding for larger screens */
+  }
+}
+
+/* Ultra-Wide Screens (Higher than 1920px) */
+@media (min-width: 1920px) {
+  .header__nav-item {
+    margin: 0 3rem; /* More spacing for ultra-wide screens */
+  }
+
+  .header__nav-item a {
+    font-size: 1.2rem;
+  }
+
+  .header__language-selector select {
+    font-size: 1.2rem;
+    padding: 0.5rem;
+  }
+
+  .header {
+    padding: 1.5rem 4rem; /* More padding for ultra-wide screens */
+  }
+}

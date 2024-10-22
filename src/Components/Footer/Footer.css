@@ -1,0 +1,195 @@
+/* Footer Styles */
+.footer {
+    background-color: #4a90e2; /* Footer background color consistent with header */
+    color: #fff; /* Text color similar to header */
+    padding: 1.5rem 2rem;
+    margin-top: 2rem;
+    width: 100vw; /* Full viewport width to ensure it spans the entire screen */
+    position: relative;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Add a slight shadow for separation */
+    box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+/* Footer Container */
+.footer__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%; /* Full width of the footer */
+    margin: 0 auto;
+    gap: 2rem;
+}
+
+/* Logo Section */
+.footer__logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer__logo img {
+    height: 50px; /* Adjust the height as needed */
+    width: auto; /* Maintain aspect ratio */
+}
+
+/* Contact Information, Quick Links, Social Media */
+.footer__contact,
+.footer__links,
+.footer__social {
+    flex: 1;
+    min-width: 200px;
+}
+
+.footer__contact h3,
+.footer__links h3,
+.footer__social h3 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    color: #ffd700; /* Accent color consistent with header */
+}
+
+.footer__contact p {
+    margin: 0.5rem 0;
+    color: #f0f0f0; /* Softer white for readability */
+}
+
+/* Quick Links */
+.footer__links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer__links li {
+    margin-bottom: 0.5rem;
+}
+
+.footer__links a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+    font-weight: 500; /* Matches header link style */
+}
+
+.footer__links a:hover {
+    color: #ffd700; /* Hover effect consistent with header */
+}
+
+/* Social Media Links */
+.footer__social .social__links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__social a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer__social a:hover {
+    color: #ffd700; /* Hover effect consistent with header */
+}
+
+.social-icon {
+    font-size: 1.8rem; /* Consistent size with header icons */
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.1); /* Add slight scaling on hover for interactivity */
+}
+
+/* Bottom Section */
+.footer__bottom {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #e0e0e0;
+}
+
+/* Responsive Styles */
+
+/* Small Devices (Mobile) */
+@media (max-width: 768px) {
+    .footer {
+        padding: 1rem 1.5rem;
+    }
+
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+        gap: 1.5rem;
+    }
+
+    .footer__logo {
+        margin-bottom: 1rem;
+    }
+
+    .footer__contact, 
+    .footer__links, 
+    .footer__social {
+        width: 100%;
+        text-align: center;
+    }
+
+    .footer__links ul,
+    .footer__social .social__links {
+        justify-content: center;
+    }
+
+    .social-icon {
+        font-size: 2rem; /* Increase icon size for mobile */
+    }
+}
+
+/* Medium Devices (Tablets) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .footer__container {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+
+    .footer__contact, 
+    .footer__links, 
+    .footer__social {
+        flex: 1;
+        text-align: center;
+    }
+
+    .footer__logo img {
+        height: 45px; /* Adjust logo size for tablets */
+    }
+
+    .social-icon {
+        font-size: 1.8rem;
+    }
+}
+
+/* Large Devices (Desktops and Larger) */
+@media (min-width: 1025px) {
+    .footer__container {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    .footer__contact, 
+    .footer__links, 
+    .footer__social {
+        text-align: left; /* Align left to match header layout */
+    }
+
+    .footer__links ul,
+    .footer__social .social__links {
+        justify-content: flex-start;
+    }
+
+    .social-icon {
+        font-size: 1.5rem; /* Standard size for desktop */
+    }
+}

@@ -1,0 +1,184 @@
+/* MissionAbout.css */
+.mission-about {
+    background: linear-gradient(to bottom, #ffffff, #f1f1f1);
+    padding: 5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: flex-start;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .mission-about:hover {
+    background-color: #eaeaea;
+  }
+  
+  .mission-about__content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: stretch;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .mission-about__mission,
+  .mission-about__about {
+    flex: 1;
+    min-width: 45%;
+    padding: 3rem;
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease-in-out, box-shadow 0.4s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mission-about__mission {
+    margin-right: 2rem;
+  }
+  
+  .mission-about__mission:hover,
+  .mission-about__about:hover {
+    transform: translateY(-15px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+  }
+  
+  .mission-about__title,
+  .mission-about__about-title {
+    font-size: 2.8rem;
+    font-family: 'Playfair Display', serif;
+    transition: color 0.4s ease-in-out;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
+    color: #333;
+  }
+  
+  .mission-about__text-container,
+  .mission-about__about-text-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    margin-top: 1rem;
+  }
+  
+  .mission-about__text,
+  .mission-about__about-text {
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+    opacity: 0.95;
+    width: 100%;
+    line-height: 1.6;
+    color: #444;
+  }
+  
+  .mission-about__content:hover .mission-about__text,
+  .mission-about__content:hover .mission-about__about-text {
+    transform: translateY(-8px);
+    opacity: 1;
+  }
+  
+  .mission-about__cta {
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.4s ease, transform 0.4s ease;
+    align-self: center;
+    margin-top: 2rem;
+  }
+  
+  .mission-about__cta:hover {
+    background-color: #e68a00;
+    transform: scale(1.15);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 1200px) {
+    .mission-about__title,
+    .mission-about__about-title {
+      font-size: 2.5rem;
+    }
+  
+    .mission-about__text,
+    .mission-about__about-text {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .mission-about {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mission-about__content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .mission-about__mission,
+    .mission-about__about {
+      width: 95%;
+      margin-right: 0;
+      margin-bottom: 2.5rem;
+      align-items: center;
+    }
+  
+    .mission-about__title,
+    .mission-about__about-title {
+      font-size: 2.2rem;
+      text-align: center;
+    }
+  
+    .mission-about__text,
+    .mission-about__about-text {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .mission-about {
+      padding: 3rem 1.5rem;
+    }
+  
+    .mission-about__title,
+    .mission-about__about-title {
+      font-size: 1.9rem;
+    }
+  
+    .mission-about__text,
+    .mission-about__about-text {
+      font-size: 1rem;
+    }
+  
+    .mission-about__cta {
+      padding: 0.8rem 1.5rem;
+      font-size: 1rem;
+    }
+  }
+  
+  /* For larger screens */
+  @media (min-width: 1600px) {
+    .mission-about__title,
+    .mission-about__about-title {
+      font-size: 3.2rem;
+    }
+  
+    .mission-about__text,
+    .mission-about__about-text {
+      font-size: 1.6rem;
+    }
+  }
+  

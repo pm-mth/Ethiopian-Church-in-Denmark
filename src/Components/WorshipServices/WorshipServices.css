@@ -1,0 +1,80 @@
+/* WorshipServices.css */
+.worship-services {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .worship-services__title {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .worship-services__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .worship-services__card {
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 280px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .worship-services__card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .worship-services__icon {
+    font-size: 3rem;
+    color: #ff9900;
+    margin-bottom: 1rem;
+  }
+  
+  .worship-services__card-title {
+    font-size: 1.8rem;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    margin-bottom: 1rem;
+  }
+  
+  .worship-services__card-description {
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .worship-services__content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .worship-services__card {
+      width: 90%;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .worship-services__title {
+      font-size: 3rem;
+    }
+  
+    .worship-services__card-title {
+      font-size: 2rem;
+    }
+  
+    .worship-services__card-description {
+      font-size: 1.2rem;
+    }
+  }

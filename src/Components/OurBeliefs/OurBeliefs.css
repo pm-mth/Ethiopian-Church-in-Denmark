@@ -1,0 +1,70 @@
+/* OurBeliefs.css */
+
+.our-beliefs {
+    background-color: #f9f9f9;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .our-beliefs__content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .our-beliefs__title {
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 2rem;
+  }
+  
+  .our-beliefs__list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .our-beliefs__item {
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+    position: relative;
+    padding-left: 2rem;
+  }
+  
+  .our-beliefs__item::before {
+    content: '\2022';
+    position: absolute;
+    left: 0;
+    color: #ff9900;
+    font-size: 2rem;
+    line-height: 1;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .our-beliefs__title {
+      font-size: 2rem;
+    }
+  
+    .our-beliefs__item {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .our-beliefs {
+      padding: 2rem 1rem;
+    }
+  
+    .our-beliefs__title {
+      font-size: 1.8rem;
+    }
+  
+    .our-beliefs__item {
+      font-size: 0.95rem;
+    }
+  }
+  

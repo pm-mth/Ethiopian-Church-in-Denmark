@@ -1,0 +1,121 @@
+/* NewHere.css */
+.new-here {
+    background: #f0f0f0;
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  
+  .new-here__title-wrapper {
+    margin-bottom: 2rem;
+  }
+  
+  .new-here__title {
+    font-size: 2.8rem;
+    font-family: 'Playfair Display', serif;
+    color: #333;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  
+  .new-here__subtitle {
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    color: #555;
+    margin-bottom: 1.5rem;
+  }
+  
+  .new-here__content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .new-here__welcome,
+  .new-here__expect {
+    background: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    text-align: left;
+  }
+  
+  .new-here__welcome:hover,
+  .new-here__expect:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .new-here__icon {
+    font-size: 3rem;
+    color: #ff9900;
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease;
+  }
+  
+  .new-here__icon:hover {
+    transform: rotate(15deg);
+  }
+  
+  .new-here__message,
+  .new-here__expect-text {
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+  }
+  
+  .new-here__cta-wrapper {
+    margin-top: 3rem;
+  }
+  
+  .new-here__link {
+    display: inline-block;
+    background-color: #ff9900;
+    color: #ffffff;
+    padding: 1rem 2.5rem;
+    border-radius: 25px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  }
+  
+  .new-here__link:hover {
+    background-color: #e68a00;
+    transform: scale(1.05);
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .new-here__content {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .new-here__welcome,
+    .new-here__expect {
+      max-width: 90%;
+      margin-bottom: 2rem;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+    .new-here__title {
+      font-size: 3.2rem;
+    }
+  
+    .new-here__message,
+    .new-here__expect-text {
+      font-size: 1.5rem;
+    }
+  }
+  
